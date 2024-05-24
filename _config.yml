@@ -113,7 +113,7 @@ analytics:
 # Site Author
 author:
   name             : "WeinHooney"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/logo.png"
   bio              : "웨인후니의 샘플 블로그입니다"
   location         : "South Korea"
   email            : "devweinhooney@gmail.com"
@@ -136,6 +136,9 @@ author:
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-brands fa-youtube"
+      url: "https://www.youtube.com"
 
 # Site Footer
 footer:
@@ -149,6 +152,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/weinhooney"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-brands fa-youtube"
+      url: "https://www.youtube.com"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
       # url:
@@ -323,5 +329,9 @@ defaults:
       share: true
       related: true
       show_date: true # 포스트한 날짜를 표시하는 기능
+      toc: true
+      toc_sticky: true
+      toc_label: 목차
+      toc_icon: "fa-solid fa-umbrella"
 
 date_format: "%Y-%m-%d" # 날짜 표시 포맷
